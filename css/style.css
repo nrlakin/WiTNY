@@ -709,11 +709,41 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 
+
+
 .fh5co-heading {
   margin-bottom: 30px;
 }
 .fh5co-heading h2 {
   margin-bottom: 20px;
+}
+
+#fh5co-contact, .fh5co-services {
+  padding: 20em 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-contact, .fh5co-services {
+    padding: 3em 0;
+  }
+}
+#fh5co-contact .item-block, .fh5co-services .item-block {
+  margin-bottom: 7em;
+  float: left;
+}
+#fh5co-contact .item-block .icon, .fh5co-services .item-block .icon {
+  display: block;
+  margin-bottom: 30px;
+}
+#fh5co-contact .item-block .icon img, .fh5co-services .item-block .icon img {
+  max-width: inherit;
+  height: 90px;
+  margin: 0 auto;
+}
+#fh5co-contact .item-block h3, .fh5co-services .item-block h3 {
+  font-size: 20px;
+}
+#fh5co-contact .item-block p:last-child, .fh5co-services .item-block p:last-child {
+  margin-bottom: 0;
 }
 
 .fh5co-section-with-image {
