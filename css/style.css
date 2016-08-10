@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-user, .fh5co-services {
-  padding: 7em 0;
+  padding: 20em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-user, .fh5co-services {
@@ -650,6 +650,62 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-user .item-block p:last-child, .fh5co-services .item-block p:last-child {
+  margin-bottom: 0;
+}
+
+#fh5co-problem, .fh5co-services {
+  padding: 20em 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-problem, .fh5co-services {
+    padding: 3em 0;
+  }
+}
+#fh5co-problem .item-block, .fh5co-services .item-block {
+  margin-bottom: 7em;
+  float: left;
+}
+#fh5co-problem .item-block .icon, .fh5co-services .item-block .icon {
+  display: block;
+  margin-bottom: 30px;
+}
+#fh5co-problem .item-block .icon img, .fh5co-services .item-block .icon img {
+  max-width: inherit;
+  height: 90px;
+  margin: 0 auto;
+}
+#fh5co-problem .item-block h3, .fh5co-services .item-block h3 {
+  font-size: 20px;
+}
+#fh5co-problem .item-block p:last-child, .fh5co-services .item-block p:last-child {
+  margin-bottom: 0;
+}
+
+#fh5co-loaner, .fh5co-services {
+  padding: 20em 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-loaner, .fh5co-services {
+    padding: 3em 0;
+  }
+}
+#fh5co-loaner .item-block, .fh5co-services .item-block {
+  margin-bottom: 7em;
+  float: left;
+}
+#fh5co-loaner .item-block .icon, .fh5co-services .item-block .icon {
+  display: block;
+  margin-bottom: 30px;
+}
+#fh5co-loaner .item-block .icon img, .fh5co-services .item-block .icon img {
+  max-width: inherit;
+  height: 90px;
+  margin: 0 auto;
+}
+#fh5co-loaner .item-block h3, .fh5co-services .item-block h3 {
+  font-size: 20px;
+}
+#fh5co-loaner .item-block p:last-child, .fh5co-services .item-block p:last-child {
   margin-bottom: 0;
 }
 
